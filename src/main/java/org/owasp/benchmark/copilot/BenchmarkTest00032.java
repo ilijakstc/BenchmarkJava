@@ -15,15 +15,16 @@
  * @author Dave Wichers
  * @created 2015
  */
-package org.owasp.benchmark.testcode;
+package org.owasp.benchmark.copilot;
 
-import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
+// ToDo: Review files
 @WebServlet(value = "/sqli-00/BenchmarkTest00032")
 public class BenchmarkTest00032 extends HttpServlet {
 
